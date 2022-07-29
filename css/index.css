@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; font-family: 'Dancing Script', cursive;}
+
+#brand{
+font-size: 30px;
+font-weight: 900; 
+}
+#HomeSlider img {
+    height: 65vh; width: 100%;  
+}
+
+#footer li {
+    padding-left: 20px;
+}
+/* ==== Moblie veiw================ */
+
+@media screen and (max-width:576px) {
+    #HomeSlider img {
+        height: 40vh;
+        width: 100%;  
+    }
+}
